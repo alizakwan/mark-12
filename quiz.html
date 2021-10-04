@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trinagle Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navigation container">
+      <div class="nav-brand">Play Quiz</div>
+      <ul class="list-not-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="index.html">Calculate Angle</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link link-active" href="quiz.html">Play Quiz</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="calculate hypotenuse.html"
+            >Calculate Hypotenuse</a
+          >
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="areaoftriangle.html">Calculate Area </a>
+        </li>
+      </ul>
+    </nav>
+    <form class="quiz-Form">
+      <div class="question-conatiner">
+        <p>
+          1 What is the trird angle for the triangle where angle = 45° and angle
+          = 45°?
+        </p>
+        <label><input type="radio" name="question1" value="45°" /> 45° </label>
+        <label><input type="radio" name="question1" value="60°" /> 60° </label>
+        <label><input type="radio" name="question1" value="90°" /> 90° </label>
+      </div>
+      <div class="question-conatiner">
+        <p>2 If a triangle has an angle of 90° what is it called?</p>
+        <label
+          ><input type="radio" name="question2" value="obtus" /> obtuse
+        </label>
+        <label
+          ><input type="radio" name="question2" value="acute" /> acute
+        </label>
+        <label
+          ><input type="radio" name="question2" value="right angled" /> right
+          angled
+        </label>
+      </div>
+      <div class="question-conatiner">
+        <p>3 how many sides does a triangle have</p>
+        <label><input type="radio" name="question3" value="5" /> 5 </label>
+        <label><input type="radio" name="question3" value="4" /> 4 </label>
+        <label><input type="radio" name="question3" value="3" /> 3 </label>
+      </div>
+      <div class="question-conatiner">
+        <p>4 What is the angle sum property of a triangle?</p>
+        <label><input type="radio" name="question4" value="200" /> 200° </label>
+        <label><input type="radio" name="question4" value="190" /> 190° </label>
+        <label><input type="radio" name="question4" value="180" /> 180° </label>
+      </div>
+      <div class="question-conatiner">
+        <p>
+          5 If two angles of a triangle are 45° and 60°, respectively, then find
+          the third angle.
+        </p>
+        <label><input type="radio" name="question5" value="50°" /> 50° </label>
+        <label><input type="radio" name="question5" value="60°" /> 60° </label>
+        <label><input type="radio" name="question5" value="75°" /> 75° </label>
+      </div>
+      <div class="question-conatiner">
+        <p>6 How many types of triangles are there?</p>
+        <label><input type="radio" name="question6" value="3" /> 3 </label>
+        <label><input type="radio" name="question6" value="6" /> 6 </label>
+        <label><input type="radio" name="question6" value="5" /> 5 </label>
+      </div>
+      <div class="question-conatiner">
+        <p>7 A scalene triangle has ___ lines of symmetry?</p>
+        <label><input type="radio" name="question7" value="2" /> 2 </label>
+        <label><input type="radio" name="question7" value="0" /> 0</label>
+        <label><input type="radio" name="question7" value="5" /> 5 </label>
+      </div>
+
+      <div class="question-conatiner">
+        <p>8 The perimeter of scalene triangle with sides a, b, c is?</p>
+        <label
+          ><input type="radio" name="question8" value="a+b+c" /> a+b+c</label
+        >
+        <label><input type="radio" name="question8" value="2" /> 2a </label>
+        <label
+          ><input type="radio" name="question8" value="None of these" /> None of
+          these
+        </label>
+      </div>
+      <div class="question-conatiner">
+        <p>
+          9 If the largest angle in a triangle is 70°, what is the least
+          possible value of the smallest angle of the triangle?
+        </p>
+        <label><input type="radio" name="question9" value="a+b+c" /> 30°</label>
+        <label><input type="radio" name="question9" value="2" /> 10° </label>
+        <label
+          ><input type="radio" name="question9" value="None of these" /> None of
+          these
+        </label>
+      </div>
+      <div class="question-conatiner">
+        <p>10 A triangle can have _ right angles?</p>
+        <label><input type="radio" name="question10" value="3" /> 3</label>
+        <label><input type="radio" name="question10" value="2" /> 2 </label>
+        <label><input type="radio" name="question10" value="1" /> 1 </label>
+      </div>
+    </form>
+    <button class="button" id="submit-answer-btn">Submit Answer</button>
+    <div id="output"></div>
+    <script src="/quiz.js"></script>
+  </body>
+</html>
